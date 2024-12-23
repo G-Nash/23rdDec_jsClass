@@ -78,11 +78,12 @@
 
 // class task
 
-let arr=["one","two", "three","four","five"]
+let arr=["one", "two", "three", "four", "five"]
 for(let i in arr){
     console.log(`${+i+1} - ${arr[i]}`)
 }
 console.log("\n")
+
 let j=0;
 for (let i of arr){
     console.log(`${++j} - ${i}`)
