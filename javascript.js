@@ -65,5 +65,13 @@
 
 
 
+//for ---normal for loop
+nm=["rjnh", "mnsr","gnsh"]
+
+for (i=0; i<nm.length; i++){
+    console.log(nm[i])
+}
+
+
 
 
